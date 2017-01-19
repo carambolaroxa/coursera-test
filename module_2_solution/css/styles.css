@@ -1,0 +1,105 @@
+/**desktop >= 992px
+767px > tablet > 992px
+mobile <= 767px
+
+**/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	/**font-family: 'Open Sans', sans-serif;**/
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Coming Soon', cursive;
+	background-color: silver;
+}
+
+h1{ font-size: 175%;
+	display: block;
+	width: 153px;
+	margin: 40px auto 50px;
+}
+
+section {
+	background-color: grey;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 3px;
+	width: auto;
+	height: auto;
+	margin: 20px 30px;
+	padding: 10px;
+}
+
+.titulo{
+	float:right;
+	margin:-10px -10px 0px 10px;
+	padding: 10px;
+	font-size: 125%;
+	text-align: center;
+	width: 40%;
+	background-color: yellow;
+	border-style: solid;
+	border-right: 3px;
+	border-top: 3px;
+	border-radius: 0px 0px 0px 3px;
+}
+#what{
+	background-color: yellow;
+}
+#why{
+	background-color: pink;
+	color: white;
+	border-color: black;	
+}
+
+#where{
+	background-color: wheat;
+}
+
+.conteudo{
+	clear: right;
+	padding-top: 10px;
+}
+
+
+/** TABLET **/
+@media (min-width: 768px) and (max-width: 991px){
+
+	body{
+		padding: 0 1.5%;
+	}
+
+	section{
+
+	margin: 2%;
+	float: left;
+	width: 45%
+	}
+
+	#last{
+	width: 95%;
+	}
+
+}/** FIM TABLET **/
+
+/** DESKTOP **/
+@media (min-width: 992px){
+
+	body{
+		padding: 0 1%;
+	}
+
+	section{
+		float: left;
+		width: 31.3%;
+		margin: 1%;
+	}
+
+} /** FIM DESKTOP **/
+
