@@ -26,9 +26,10 @@ h1{ font-size: 175%;
 
 section {
 	background-color: grey;
-	border: 1px;
+	border: 3px;
 	border-style: solid;
 	border-color: black;
+	border-radius: 3px;
 	width: auto;
 	height: auto;
 	margin: 20px 30px;
@@ -42,16 +43,17 @@ section {
 	font-size: 125%;
 	text-align: center;
 	width: 40%;
-	background-color: yellow;
+	background-color: pink;
 	border-style: solid;
-	border-right: 1px;
-	border-top: 1px;
+	border-right: 3px;
+	border-top: 3px;
+	border-radius: 0px 0px 0px 3px;
 }
 #what{
 	background-color: pink;
 }
 #why{
-	background-color: firebrick;
+	background-color: brown;
 	color: white;
 	border-color: black;	
 }
