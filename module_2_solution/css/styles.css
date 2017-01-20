@@ -50,10 +50,10 @@ section {
 	border-radius: 0px 0px 0px 3px;
 }
 #what{
-	background-color: yellow;
+	background-color: pink;
 }
 #why{
-	background-color: pink;
+	background-color: firebrick;
 	color: white;
 	border-color: black;	
 }
