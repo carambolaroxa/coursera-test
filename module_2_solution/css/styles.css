@@ -26,10 +26,9 @@ h1{ font-size: 175%;
 
 section {
 	background-color: grey;
-	border: 3px;
+	border: 1px;
 	border-style: solid;
 	border-color: black;
-	border-radius: 3px;
 	width: auto;
 	height: auto;
 	margin: 20px 30px;
@@ -45,9 +44,8 @@ section {
 	width: 40%;
 	background-color: yellow;
 	border-style: solid;
-	border-right: 3px;
-	border-top: 3px;
-	border-radius: 0px 0px 0px 3px;
+	border-right: 1px;
+	border-top: 1px;
 }
 #what{
 	background-color: pink;
